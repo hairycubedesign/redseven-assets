@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/local/Cellar/node/11.11.0/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js login
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Volumes/Macintosh HD/Users/jimobrien/mvn/apache-maven-3.3.3/bin:/usr/local/mysql/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/jimobrien/Sites/redseven-assets/package.json: Unexpected token } in JSON at position 155
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "red-seven-assets",
+    "version": "1.0.0",
+    "description": "A collection of universal UI elements ",
+    "main": "index.js",
+    "license": "MIT",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
