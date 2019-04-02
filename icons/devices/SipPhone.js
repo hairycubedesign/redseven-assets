@@ -9,7 +9,7 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+var _createSvgIcon = _interopRequireDefault(require("../utils/createSvgIcon"));
 
 var _default = (0, _createSvgIcon.default)(_react.default.createElement(_react.default.Fragment, null, _react.default.createElement("path", {
   //base left edge
@@ -56,34 +56,10 @@ var _default = (0, _createSvgIcon.default)(_react.default.createElement(_react.d
   height: "1.35"
 
 }), _react.default.createElement("rect", {
-  //centre left keypad button
-  fill: "#ffffff",
-  x: "11.3",
-  y: "18.35",
-  width: "2.55",
-  height: "1.35"
-
-}), _react.default.createElement("rect", {
-  //centre middle keypad button
-  fill: "#ffffff",
-  x: "14.725",
-  y: "18.35",
-  width: "2.55",
-  height: "1.35"
-
-}), _react.default.createElement("rect", {
-  //centre right keypad button
-  fill: "#ffffff",
-  x: "18.15",
-  y: "18.35",
-  width: "2.55",
-  height: "1.35"
-
-}), _react.default.createElement("rect", {
   //bottom left keypad button
   fill: "#ffffff",
   x: "11.3",
-  y: "15.925",
+  y: "18.35",
   width: "2.55",
   height: "1.35"
 
@@ -91,12 +67,36 @@ var _default = (0, _createSvgIcon.default)(_react.default.createElement(_react.d
   //bottom middle keypad button
   fill: "#ffffff",
   x: "14.725",
-  y: "15.925",
+  y: "18.35",
   width: "2.55",
   height: "1.35"
 
 }), _react.default.createElement("rect", {
   //bottom right keypad button
+  fill: "#ffffff",
+  x: "18.15",
+  y: "18.35",
+  width: "2.55",
+  height: "1.35"
+
+}), _react.default.createElement("rect", {
+  //centre left keypad button
+  fill: "#ffffff",
+  x: "11.3",
+  y: "15.925",
+  width: "2.55",
+  height: "1.35"
+
+}), _react.default.createElement("rect", {
+  //centre middle keypad button
+  fill: "#ffffff",
+  x: "14.725",
+  y: "15.925",
+  width: "2.55",
+  height: "1.35"
+
+}), _react.default.createElement("rect", {
+  //centre right keypad button
   fill: "#ffffff",
   x: "18.15",
   y: "15.925",
